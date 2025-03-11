@@ -166,7 +166,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 450px;
+    width: 80%;
     padding: 15px;
     margin: 10px auto;
     font-size: 30px;
@@ -190,7 +190,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 450px;
+    width: 80%;
     padding: 15px;
     margin: 10px auto;
     font-size: 30px;
@@ -252,4 +252,31 @@ footer {
     z-index: 2;
 
 }
+
+@media (max-width:768px) {
+    .header-content {
+        margin-top: 50px;
+    }
+
+    header {
+        min-height: auto; /* en lugar de 100vh */
+        padding: 20px;    /* usa padding en lugar de margin-top en .header-content */
+    }
+
+    .footer {
+        position: static; /* para que fluya y no se superponga */
+        flex-direction: column; /* si quieres que los elementos se apilen */
+        gap: 10px;
+    }
+    
+      /* Redes sociales */
+    .social-link {
+        position: static; /* o fixed si quieres que estén fijas en la esquina */
+        flex-direction: row; /* si prefieres en una sola línea */
+        gap: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
 
