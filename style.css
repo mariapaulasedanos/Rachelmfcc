@@ -304,6 +304,10 @@ footer {
         margin-bottom: 200px;
     }
 
+    .footer-content h2 {
+        font-size: 0.3rem
+    }
+
 }
 
 
