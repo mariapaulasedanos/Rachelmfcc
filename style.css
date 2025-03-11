@@ -275,7 +275,7 @@ footer {
       /* Redes sociales */
     .social-link {
         position: absolute; /* o fixed si quieres que estén fijas en la esquina */
-        flex-direction: row; /* si prefieres en una sola línea */
+        flex-direction: column; /* si prefieres en una sola línea */
         gap: 10px;
         justify-content: center;
         margin-top: 20px;
@@ -283,6 +283,18 @@ footer {
         flex-direction: row;
         margin:0 auto;
         
+    }
+
+    .header-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .header-content p {
+        font-size: 1rem;
+    }
+
+    .logo img {
+        max-width: 40px;
     }
 }
 
