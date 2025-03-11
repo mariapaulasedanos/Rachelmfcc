@@ -300,12 +300,11 @@ footer {
     }
 
     .btn-1, .btn-2 {
-        margin-top: 200px; /* Aumenta el espacio entre el texto y los botones */
         gap: 10px;
     }
 
     .btn-container {
-        margin-top: 200px;
+        margin-bottom: 100px;
 }
 
 
