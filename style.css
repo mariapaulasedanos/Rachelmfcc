@@ -264,18 +264,25 @@ footer {
     }
 
     .footer {
-        position: static; /* para que fluya y no se superponga */
+        position: absolute; /* para que fluya y no se superponga */
         flex-direction: column; /* si quieres que los elementos se apilen */
         gap: 10px;
+        bottom: 0;
+        display:flex;
+        
     }
     
       /* Redes sociales */
     .social-link {
-        position: static; /* o fixed si quieres que estén fijas en la esquina */
+        position: absolute; /* o fixed si quieres que estén fijas en la esquina */
         flex-direction: row; /* si prefieres en una sola línea */
         gap: 10px;
         justify-content: center;
         margin-top: 20px;
+        display:flex;
+        flex-direction: row;
+        margin:0 auto;
+        
     }
 }
 
